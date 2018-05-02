@@ -8,6 +8,8 @@ public class BasicTest {
 
     @Test
     public void shouldAddTwoNumbers() {
-        assertEquals("Helloworld","Helloworld");
+        Calculator c= new Calculator();
+        
+        assertEquals(5,  c.add(2,3));
     }
 }
