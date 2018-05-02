@@ -2,7 +2,7 @@ package com.devskiller.calculator;
 
 import org.junit.Test;
 
-import static org.assertj.core.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class BasicTest {
 
