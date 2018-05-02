@@ -15,7 +15,7 @@ public class BasicTest {
         int result = calculator.add(2, 3);
 
         //then
-        assertThat(result).isEqualTo(5);
+        assertThat(result).isEqualTo(0);
     }
 
     @Test
@@ -27,7 +27,7 @@ public class BasicTest {
         int result = calculator.subtract(5, 3);
 
         //then
-        assertThat(result).isEqualTo(2);
+        assertThat(result).isEqualTo(0);
     }
 
     @Test
@@ -39,7 +39,7 @@ public class BasicTest {
         int result = calculator.multiply(2, 3);
 
         //then
-        assertThat(result).isEqualTo(6);
+        assertThat(result).isEqualTo(0);
     }
 
     @Test
@@ -51,6 +51,6 @@ public class BasicTest {
         int result = calculator.divide(6, 3);
 
         //then
-        assertThat(result).isEqualTo(2);
+        assertThat(result).isEqualTo(0);
     }
 }
